@@ -71,9 +71,9 @@ def random_ua():
     return(ua)
 myid=uuid.uuid4().hex[:5].upper()
 try:
-    key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
+    key1 = open('https://github.com/MOSTAKIMVAU/FB/blob/main/Approvel', 'r').read()
 except:
-    kok=open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'w');kok.write(myid);kok.close()
+    kok=open('https://github.com/MOSTAKIMVAU/FB/blob/main/Approvel', 'w');kok.write(myid);kok.close()
 uid = os.getuid()
 key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
 kex=(f"AKING-XD~CREATE:{uid}MOSTAKIM{key1}BRAND==")
@@ -423,3 +423,4 @@ def Create():
        time.sleep(2)
        tpe(max_workers=10).submit(strt)
 #Create() 
+
